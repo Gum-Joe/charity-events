@@ -1,0 +1,1 @@
+FileLoopLivestream "stream720p25.mp4" youtube -i ./pylivestream.ini
