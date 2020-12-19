@@ -1,0 +1,10 @@
+[Unit]
+Description=Daemon for the backup stream
+
+[Service]
+# You may need to change the below
+ExecStart=./defaultScreen.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
