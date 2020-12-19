@@ -3,7 +3,8 @@ Description=Daemon for the backup stream
 
 [Service]
 # You may need to change the below
-ExecStart=./defaultScreen.sh
+ExecStart=/home/Kishan/charity-events/backup-stream/defaultScreen.sh
+WorkingDirectory=/home/Kishan/charity-events/backup-stream
 Restart=on-failure
 
 [Install]
